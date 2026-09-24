@@ -1,0 +1,103 @@
+
+import '../models/hostel_model.dart';
+
+class HostelData {
+  static final List<HostelModel> hostels = [
+    HostelModel(
+      name: 'Urban Nest Premium Hostel',
+      location: 'Gachibowli',
+      city: 'Hyderabad',
+      price: 8500,
+      sharing: '2 Sharing',
+      gender: 'Female',
+      rating: 4.7,
+      food: true,
+      wifi: true,
+      ac: true,
+      security: true,
+      parking: false,
+      laundry: false,
+    ),
+
+    HostelModel(
+      name: 'Green Leaf Living',
+      location: 'Kondapur',
+      city: 'Hyderabad',
+      price: 7800,
+      sharing: '2 Sharing',
+      gender: 'Female',
+      rating: 4.5,
+      food: true,
+      wifi: true,
+      ac: false,
+      security: true,
+      parking: true,
+      laundry: true,
+    ),
+
+    HostelModel(
+      name: 'Comfort Stay Homes',
+      location: 'Hitech City',
+      city: 'Hyderabad',
+      price: 9000,
+      sharing: '2 Sharing',
+      gender: 'Female',
+      rating: 4.4,
+      food: true,
+      wifi: true,
+      ac: true,
+      security: true,
+      parking: true,
+      laundry: true,
+    ),
+
+    HostelModel(
+      name: 'Metro Girls Residence',
+      location: 'Madhapur',
+      city: 'Hyderabad',
+      price: 7200,
+      sharing: '3 Sharing',
+      gender: 'Female',
+      rating: 4.3,
+      food: true,
+      wifi: true,
+      ac: false,
+      security: true,
+      parking: false,
+      laundry: true,
+    ),
+
+    HostelModel(
+      name: 'Skyline Student Living',
+      location: 'Gachibowli',
+      city: 'Hyderabad',
+      price: 9500,
+      sharing: 'Single',
+      gender: 'Any',
+      rating: 4.6,
+      food: false,
+      wifi: true,
+      ac: true,
+      security: true,
+      parking: true,
+      laundry: true,
+    ),
+
+    HostelModel(
+      name: 'Campus Comfort Stay',
+      location: 'Kondapur',
+      city: 'Hyderabad',
+      price: 6500,
+      sharing: '4 Sharing',
+      gender: 'Any',
+      rating: 4.1,
+      food: true,
+      wifi: true,
+      ac: false,
+      security: true,
+      parking: false,
+      laundry: true,
+    ),
+  ];
+}
+
